@@ -71,11 +71,81 @@ Lvl 24 XP 0002F6E1 (194273 XP)
 
 Lvl 25 XP 00037045 (225349 XP) 
 
-Lvl 26 XP 0003F79F , 0003F79F (260K XP)
+Lvl 26 XP 0003F79F (260K XP)
 
+Lvl 27 XP 00048DF4 (298485 XP)
 
+Lvl 28 XP 00053452 (341075 XP)
 
-And so on... If you don't care about leveling properly this doesn't matter. 
+Lvl 29 XP 0005EBD0 (388048 XP)
+
+Lvl 30 XP 0006B58E (439694 XP)
+
+Lvl 31 XP 000792B5 (496309 XP)
+
+Lvl 32 XP 00088477 (558199 XP)
+
+Lvl 33 XP 00098C0F (625679 XP)
+
+Lvl 34 XP 000AAAC1 (699074 XP)
+
+Lvl 35 XP 000BE1DA (778714 XP)
+
+Lvl 36 XP 000D32B0 (864944 XP)
+
+Lvl 37 XP 000E9EA2 (958114 XP)
+
+Lvl 38 XP 00102718 (1058584 XP)
+
+Lvl 39 XP 0011CD83 (1166723 XP)
+
+Lvl 40 XP 0013935D (1282909 XP)
+
+And so on... If you don't care about leveling properly this doesn't matter. If you use a number too high, you'll level slow. If you use a
+number too low, you'll level quick etc. I like to pick the level I want to go to, then enter that after each battle. Battle that many 
+times, then once you hit the level you want, don't enter the code again. You'll be at the correct amount to continue leveling like 
+normal.
+
+HOW TO GO TO HIGHER LEVELS
+
+If you use the level 40 Quick Level number, you will get the max XP you would have at level  40, before hitting 41.  Just enter that code, 
+level up and repeat until you get to level 41. At that point, you will level up like normal. If you wanted wanted to level  up again, to
+42, you would have to find out the max XP & next level, as I don't have it listed. Here's how.
+
+Once you level up to 41, look at your XP, and Next level. 
+
+41
+Exp: 1282910
+Next LVL: 124620
+
+If you add up those numbers, then substract by one, you will get the number right before you level for that level. In this case its
+
+1282910 + 124620 = 1,407,530
+
+Now if you use this number you'd be at the right XP for 41, but because we want to level first and gain those nice stat points, we 
+subtract by one, and then set it.
+
+1,407,530 - 1 = 1,407,529
+
+Now let's convert this number to Hex = 00157A29
+
+Now use NetCheat to set the QuickLevel and XP to 1,407,530 (in this example I'll use Polka)
+
+So the cheat to get to level 41 XP for Polka would look like this
+
+0 008299B4 00157A2A
+0 00829BF4 00157A2A
+
+This will set your next level XP to 1, and make it so once you do level, you'll be in the correct spot to level to 42. The actual XP
+isn't really significant, but to have the correct amount listed, just keep it the same as the QL. If you are doing things right, the QL
+and XP should always be the same. 
+
+A quick way to find the next XP level is to just add them together like above, without substracting the 1. Then push that to your character.
+Once you've done that, add the XP and Next Level again for the next. Just remember once you get to the number you want to subtract one,
+so that you are 1 point before the lvl  you want. 
+
+TLDR; To find the XP to quick level properly, you need to add your total XP & next level, then subtract it by 1. The only caveat is
+You have to know that number before you can level. You can probably look at characters on Youtube or Google as well to get the number.
 
 Email me if you have any questions or concerns, or would like to support me looking for cheats. technaustin@gmail.com
 

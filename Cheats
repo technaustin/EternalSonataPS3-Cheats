@@ -41,9 +41,11 @@ XP & Quick Level (I will add more soonTM)
 0 00829A44 00014A25 (Viola XP) 
 0 00829C84 00014A25 (Viola QL)
 
-Money 0 0 00828EB8 xxxxxxxx
+Money 
+0 00828EB8 xxxxxxxx
 
-Item Limit 0 0 00829798 14
+Battle Item Limit 
+0 00829798 xx
 
 Item Slots & Item Number
 0 0082B48E 
@@ -129,4 +131,4 @@ Jazz Base Stats 0
 0 00829CF8 xxxx (DEF)
 0 00829CFA xxxx (SPD)
 
-(WARNING once you change stats, it won't take effect until you change equio, but it will be permanent)
+(WARNING once you change stats, it won't take effect until you change equip, but it will be permanent)

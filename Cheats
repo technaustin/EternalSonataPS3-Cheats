@@ -12,22 +12,75 @@ For example, if you just want to quick level you could just enter the XP and Qui
 
 Example: Once you get to level 16, you need 0000b39B exp to level. If you set your quicklevel & XP to the integer before it, you will level as you should. So really, you should find the max level you want to be at and find the natural XP amount to get there, then set your QL to one before it. After that you just keep fighting until you are at the target level. If you don't know the amount of XP, then you can do this: Once you level to 16 from 17, with the integer we just used (0000B39A), you can look at your max XP, and to next level XP. Add those together, and you will get 0000DDCC. Set your QL and XP to one before that to have the next level be proper. Keep doing that until you are at the level you want.
            XP and Quicklevel numbers to go in cheats below 
-Lvl 1 XP - 000000C8 QL- 000000C8 (200)
+           
+ This is the max XP before you go to the next level. Use these integers for both XP & QL below, to mimic how to game
+would level your character at a certain level. Really only the QL(quick level) matters, the XP is just to make it look the same as 
+the game would. If you need to get to level 16, just use the level 16 numbers, until you get 
+to 16.
+ This is the max XP before you go to the next level. Use these integers for both XP & QL below, to mimic how to game
+would level your character at a certain level. If you need to get to level 16, just use the level 16 numbers, until you get 
+to 16.
 
-Lvl 16 XP - 0000B39B QL- 0000B39B
+Lvl  1 XP 000000C7 (199XP) (LEVEL HAPPENS AT 200XP)
 
-Lvl 17 XP - 0000DDCB , QL - 0000DDCB
+Lvl  2 XP 00000199 (409 XP) 
 
-lVL 18 XP - 00010F0D , QL - 00010F0D
+Lvl  3 XP 000002A2 (674 XP)
 
-LVL 20 XP - 0001481E , QL- 0001481E    
+Lvl  4 XP 00000418 (1048 XP)
 
-Lvl 26 XP 0003F79F , QL - 0003F79F (260K))
+Lvl  5 XP 0000063A (1594 XP) (Level happens at 1595XP etc....)
+
+Lvl  6 XP 00000950 (2384 XP)
+
+Lvl  7 XP 00000DAB (3499 XP)
+
+Lvl  8 XP 000013A5 (5029 XP)
+
+Lvl  9 XP 00001BA1 (7073 XP)
+
+Lvl 10 XP 0000260B (9739 XP)
+
+Lvl 11 XP 00003358 (13144 XP)
+
+Lvl 12 XP 00004406 (17414 XP)
+
+Lvl 13 XP 0000589C (22684 XP)
+
+Lvl 14 XP 000071AA (29098 XP) 
+
+Lvl 15 XP 00008FC9 (36809 XP)
+
+Lvl 16 XP 0000B39B (45979 XP)
+
+Lvl 17 XP 0000DDCB (56779 XP)
+ 
+Lvl 18 XP 00010F0D (69389 XP)
+
+Lvl 19 XP 0001481E (83998 XP)  
+
+Lvl 20 XP 000189C4 (100804 XP)
+
+Lvl 21 XP 0001D4CE (120014 XP)
+
+Lvl 22 XP 00022A14 (141844 XP)
+
+Lvl 23 XP 00028A77 (166519 XP)
+ 
+Lvl 24 XP 0002F6E1 (194273 XP)
+
+Lvl 25 XP 00037045 (225349 XP) 
+
+Lvl 26 XP 0003F79F , 0003F79F (260K XP)
+
+
+
+And so on... If you don't care about leveling properly this doesn't matter. 
 
 Email me if you have any questions or concerns, or would like to support me looking for cheats. technaustin@gmail.com
 
 CODES
-
+----------------------------------------------------------------------------------------------------------------------------------------
 XP & Quick Level (I will add more soonTM)
 
 0 008299B4 (Polka XP) 
@@ -47,7 +100,7 @@ Money
 Battle Item Limit 
 0 00829798 xx
 
-Item Slots & Item Number
+Item Slots & Item Number (this might be tied to a slot, which would require a second line of code for the item, looking into it)
 0 0082B48E 
 0 0082B492 
 0 0082B496 30 

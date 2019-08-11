@@ -18,8 +18,9 @@ would level your character at a certain level. Really only the QL(quick level) m
 the game would. If you need to get to level 16, just use the level 16 numbers, until you get 
 to 16.
  This is the max XP before you go to the next level. Use these integers for both XP & QL below, to mimic how to game
-would level your character at a certain level. If you need to get to level 16, just use the level 16 numbers, until you get 
-to 16.
+would level your character at a certain level. If you need to get to level 17, just use the level 16 numbers, until you get 
+to 17. You have to use the numbers before it, then level up once. The numbers you are seeing at the max of that level, so once you go
+over the max of 16 your at 17. So basically, use the number before the level you want to go to, IE if you want 35, use 34 XP. 
 
 Lvl  1 XP 000000C7 (199XP) (LEVEL HAPPENS AT 200XP)
 

@@ -11,18 +11,18 @@ For Quick Level, please follow these instructions if you plan to level normal af
 For example, if you just want to quick level you could just enter the XP and Quick level as 0000B39A. Each time you set it to that, you will get a level up. The problem arises once you want to begin to level like normal. If you went to level 50 like this, then you'll have an issue going forward. You will level like you are from 16, which will be much faster than it should. To fix this, you can level like this.
 
 Example: Once you get to level 16, you need 0000b39B exp to level. If you set your quicklevel & XP to the integer before it, you will level as you should. So really, you should find the max level you want to be at and find the natural XP amount to get there, then set your QL to one before it. After that you just keep fighting until you are at the target level. If you don't know the amount of XP, then you can do this: Once you level to 16 from 17, with the integer we just used (0000B39A), you can look at your max XP, and to next level XP. Add those together, and you will get 0000DDCC. Set your QL and XP to one before that to have the next level be proper. Keep doing that until you are at the level you want.
+           XP and Quicklevel numbers to go in cheats below 
+Lvl 1 XP - 000000C8 QL- 000000C8 (200)
 
-Lvl 1 XP - 000000C8 (200)
+Lvl 16 XP - 0000B39B QL- 0000B39B
 
-Lvl 16 XP - 0000B39A, 0000B39a
+Lvl 17 XP - 0000DDCB , QL - 0000DDCB
 
-Lvl 17 XP 0000DDCB , 0000DDCB
+lVL 18 XP - 00010F0D , QL - 00010F0D
 
-lVL 18 10F0D 10F0D
+LVL 20 XP - 0001481E , QL- 0001481E    
 
-LVL 20 00014A25 , 00014A25
-
-Lvl 26 XP 0003F7A0 , 0003F79F (260K))
+Lvl 26 XP 0003F79F , QL - 0003F79F (260K))
 
 Email me if you have any questions or concerns, or would like to support me looking for cheats. technaustin@gmail.com
 

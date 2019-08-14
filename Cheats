@@ -1,26 +1,30 @@
 Codes for PS3 - BLES00444 (possibly other regions too)
 
+Summary --------------------------------------------------------------------------------------------------------------------------------
+All cheats tested by me, but I'm sure I made a few mistakes.
+
 I'm probably not going to search for any more items, as they are really easy to find with NetCheat PS3. 
 I will at least label all of the missing item's I have here. All you need to do is replace the item #
 Just an FYI, to get netcheat working properly, I used Target Manager, and the PS3 debugger. You also have to decrypt your game eboot. 
 I couldn't figure out how to put score pieces in the menu, but I found the item numbers (5E,5F,60,61,62.......) 
 Hopefully someone smarter than me can figure out how to give yourself those. 
 You can enter these directly into NetCheat PS3, or download the NCM file i've  uploaded.
+
+How to-------------------------------------------------------------------------------------------------------------------------------------
+This requires NetCheat PS3. I got netcheat working with an old version of CCAPI 2.6, on my computer, and 2.8 on the PS3.
+Once you have that, you need to search for PS3 Target Manager & debugger. Install them. Follow a guide to set it up.
+
+
 For Quick Level, please follow these instructions if you plan to level normal after quick leveling.
 
 For example, if you just want to quick level you could just enter the XP and Quick level as 0000B39A. Each time you set it to that, you will get a level up. The problem arises once you want to begin to level like normal. If you went to level 50 like this, then you'll have an issue going forward. You will level like you are from 16, which will be much faster than it should. To fix this, you can level like this.
 
-Example: Once you get to level 16, you need 0000b39B exp to level. If you set your quicklevel & XP to the integer before it, you will level as you should. So really, you should find the max level you want to be at and find the natural XP amount to get there, then set your QL to one before it. After that you just keep fighting until you are at the target level. If you don't know the amount of XP, then you can do this: Once you level to 16 from 17, with the integer we just used (0000B39A), you can look at your max XP, and to next level XP. Add those together, and you will get 0000DDCC. Set your QL and XP to one before that to have the next level be proper. Keep doing that until you are at the level you want.
-           XP and Quicklevel numbers to go in cheats below 
-           
- This is the max XP before you go to the next level. Use these integers for both XP & QL below, to mimic how to game
-would level your character at a certain level. Really only the QL(quick level) matters, the XP is just to make it look the same as 
-the game would. If you need to get to level 16, just use the level 16 numbers, until you get 
-to 16.
- This is the max XP before you go to the next level. Use these integers for both XP & QL below, to mimic how to game
+ex: Once you get to level 16, you need 0000b39B exp to level. If you set your quicklevel & XP to the integer before it, you will level as you should. So really, you should find the max level you want to be at and find the natural XP amount to get there, then set your QL to one before it. After that you just keep fighting until you are at the target level. If you don't know the amount of XP, then you can do this: Once you level to 16 from 17, with the integer we just used (0000B39A), you can look at your max XP, and to next level XP. Add those together, and you will get 0000DDCC. Set your QL and XP to one before that to have the next level be proper. Keep doing that until you are at the level you want.
+XP and Quicklevel numbers to go in cheats below. This is the max XP before you go to the next level. Use these integers for both XP & QL below, to mimic how to game
 would level your character at a certain level. If you need to get to level 17, just use the level 16 numbers, until you get 
 to 17. You have to use the numbers before it, then level up once. The numbers you are seeing at the max of that level, so once you go
-over the max of 16 your at 17. So basically, use the number before the level you want to go to, IE if you want 35, use 34 XP. 
+over the max of 16 your at 17. TLDR; use the number before the level you want to go to, IE if you want 35, use 34 XP. Each time you apply
+the cheat, you can kill a mob and gain a level. 
 
 Lvl  1 XP 000000C7 (199XP) (LEVEL HAPPENS AT 200XP)
 
@@ -152,45 +156,118 @@ Email me if you have any questions or concerns, or would like to support me look
 
 CODES
 ----------------------------------------------------------------------------------------------------------------------------------------
-XP & Quick Level (I will add more soonTM)
 
-0 008299B4 (Polka XP) 
-0 00829BF4 (Polka QL) 
-0 00829A14 (Fredric XP) 
-0 00829C54 (Frederic QL) 
-0 008299E4 (Beat XP) 
-0 00829C24 (Beat QL)
-0 00829984 (Allegretto XP) 
-0 00829BC4 (Allegretto QL)
-0 00829A44 00014A25 (Viola XP) 
-0 00829C84 00014A25 (Viola QL)
+Item Hacks-------------------------------------------------------------------------------------------------------------------------------------
+
+Items
+Peach Cookie       - CD
+Star Cookie        - CE
+Floral Powder      - D1 
+Floral Extract     - D2
+Club Clover        - D4
+Angel Trumpet      - CB
+Glowing Tail       - DF
+Shadow Tail        - E0
+Bubble Straw       - E1
+Hell Mustard       - E6
+Twighlight Feather - E8
+Dawn Feather       - E9
+Fallen Feather     - EA
+Pure Feather       - EC
+Chance Feather     - F0
+Icy Feather        - EE
+Time Feather       - ED
+Lions Mane         - D8
+Dragon Scale       - D9
+Odd Chocolate      - DB
+Fish Inscense      - DD
+Big Paper Fan      - E7
+Poison Whitecap    - E3
+EZI Cracker        - 7F
+EZI Photo          - 84
+
+
+Slots * yy is the item, and xx is the amount 
+(This number goes up to however many items you have in your inv) Pattern is 9,D,1,5. 
+If you have 25 items, then the weapons will start at slot 26. if you have 5 weapons, then the armor will start at 31 and so on.
+
+0082B489 yyxx (Slot 1)
+0082B48D yyxx (Slot 2)
+0082B491 yyxx (Slot 3)
+0082B495 yyxx (Slot 4)
+0082B499 yyxx (Slot 5)
+0082B49D yyxx (Slot 6)
+0082B4A1 yyxx (Slot 7)
+0082B4A5 yyxx (Slot 8)
+0082B4A9 yyxx (Slot 9)
+0082B4AD yyxx (Slot 10)
+0082B4B1 yyxx (Slot 11)
+0082B4B5 yyxx (Slot 12)
+0082B4B9 yyxx (Slot 13)
+0082B4BD yyxx (Slot 14)
+0082B4C1 yyxx (Slot 15)
+0082B4C5 yyxx (Slot 16)
+0082B4C9 yyxx (Slot 17)
+0082B4CD yyxx (Slot 18)
+0082B4D1 yyxx (Slot 19)
+0082B4D5 yyxx (Slot 20)
+0082B4D9 yyxx (Slot 21)
+0082B4DD yyxx (Slot 22)
+0082B4E1 yyxx (Slot 23)
+0082B4E5 yyxx (Slot 24)
+0082B4E9 yyxx (Slot 25) My items stop after 25, so the next slots will be Weapons. Once your items are out, Weapon Slots start 
+0082B5F1 yyxx (Slot 26) .
+0082B4F5 yyxx (Slot 27)    
+0082B4F9 yyxx (Slot 28)
+0082B4FD yyxx (Slot 29)
+0082B501 yyxx (Slot 30)
+0082B505 yyxx (Slot 31)
+0082B509 yyxx (Slot 32)
+0082B50D yyxx (Slot 33)
+0082B511 yyxx (Slot 34)
+0082B515 yyxx (Slot 35)
+0082B519 yyxx (Slot 36)
+0082B51D yyxx (Slot 37)
+.......1
+.......5
+.......9
+.......D continue this as far as you like.
+
+Items are followed by Armor, then Accessories, then key items.I have 30 weapons alone, so thist list would take forever.
+
+
+(Score Piece  in order 5E, 5F, 60, .... Through 7D, though they dont seem to do anything on an item slot)
+
+XP & Quick Level (I will add more soonTM)------------------------------------------------------------------------------------------------------------------
+
+0 008299B4  (Polka XP)
+0 00829BF4  (Polka Quick Level)
+0 00829A14  (Fredric XP)
+0 00829C54  (Frederic QL)
+0 008299E4  (Beat XP)
+0 00829C24  (Beat QL)
+0 00829984  (Allegretto XP)
+0 00829BC4  (Allegretto QL)
+0 00829A44  (Viola XP)
+0 00829C84  (Viola QL)
+0 00829CB4  (Salsa XP)
+0 00829A74  (Salsa QL)
+0 00829CE4  (Jazz XP)
+0 00829AA4  (Jazz QL)
+0 00829AD4  (Falsetto XP)
+0 00829D14  (Falsetto QL)
+0 00829B04  (Claves XP)
+0 00829D44  (Claves QL)
 
 Money 
 0 00828EB8 xxxxxxxx
 
-Battle Item Limit 
+Battle Item Limit (increase how many items you can hold during battle. Tested with the constant write in Netcheat)
 0 00829798 xx
 
-Item Slots & Item Number (this might be tied to a slot, which would require a second line of code for the item, looking into it)
-0 0082B48E 
-0 0082B492 
-0 0082B496 30 
-0 0082B49A 50 
-0 0082B49E 50 
-0 0082B48A 30 
-0 0082B4A2 (Shadow Tail) 
-0 0082B4A6 (Bubble Straw) 
-0 0082B4AA (Hell Mustard) 
-0 0082B4AE (Twilight Feather) 
-0 0082B4B6 (Dawn Feather) 
-0 0082B4BA (Chance Feather) 
-0 0082B4BE (Dragon Scale) 
-0 0082B4CE 
-0 0082B516 1 (Coachmans Coat) 
-(Key Items start in this range) (0082B535) 
-(Score Piece in order 5E, 5F, 60, .... Through 7D) ( I need to fix the items part)
-
+STATS------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 (STATS WARNING - once you change stats, it won't take effect until you change equip, but it will be permanent)
+For max stats do FFFF, unless you want an exact number, then convert your number to HEX.
 
 Viola Base Stats HP, ATT, MAG, DEF, SPD 
 0 00829C92 xxxx (HP) 

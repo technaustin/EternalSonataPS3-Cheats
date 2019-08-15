@@ -160,9 +160,11 @@ CODES
 Item Hacks-------------------------------------------------------------------------------------------------------------------------------------
 HOW TO ADD ITEMS:
 To add items to your inventory, you can either just search for an item, and swap the amount and item #. The alternative is to add
-a brand new item, but it requires a little more searching. To an an item, you need to find the last item in your inv, then put 01yyxx
+a brand new item, but it requires a little more searching. To an an item, you need to find the last item in your inv, then put yyyyxx
 This will insert the new item for you in its proper area. The last items in your list will be after key items.
-For example if I would like to add a restorative I wuld add 00CD to the next open slot.
+For example if I would like 9 ultimate weapons for Frederic, the Voiceless Scepter.  I would add 0082B5F4 004109 to the next open slot.
+The item number is yyyy in this case 0041, the amount is 09 which makes 004109. The reason its at 0082B5F4, is because that is the next
+blank slot. 
 
 Items
 Peach Cookie       - 00CD
@@ -273,6 +275,7 @@ If you have 25 items, then the weapons will start at slot 26. if you have 5 weap
 .......9
 .......D continue this as far as you like.
 0082B5F4 01yyxx (My next open slot)
+
 
 Items are followed by Armor, then Accessories, then key items.I have 30 weapons alone, so thist list would take forever.
 

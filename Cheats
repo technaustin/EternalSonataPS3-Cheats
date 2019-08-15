@@ -158,80 +158,121 @@ CODES
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 Item Hacks-------------------------------------------------------------------------------------------------------------------------------------
+HOW TO ADD ITEMS:
+To add items to your inventory, you can either just search for an item, and swap the amount and item #. The alternative is to add
+a brand new item, but it requires a little more searching. To an an item, you need to find the last item in your inv, then put 01yyxx
+This will insert the new item for you in its proper area. The last items in your list will be after key items.
+For example if I would like to add a restorative I wuld add 00CD to the next open slot.
 
 Items
-Peach Cookie       - CD
-Star Cookie        - CE
-Floral Powder      - D1 
-Floral Extract     - D2
-Club Clover        - D4
-Angel Trumpet      - CB
-Glowing Tail       - DF
-Shadow Tail        - E0
-Bubble Straw       - E1
-Hell Mustard       - E6
-Twighlight Feather - E8
-Dawn Feather       - E9
-Fallen Feather     - EA
-Pure Feather       - EC
-Chance Feather     - F0
-Icy Feather        - EE
-Time Feather       - ED
-Lions Mane         - D8
-Dragon Scale       - D9
-Odd Chocolate      - DB
-Fish Inscense      - DD
-Big Paper Fan      - E7
-Poison Whitecap    - E3
-EZI Cracker        - 7F
-EZI Photo          - 84
+Peach Cookie       - 00CD
+Star Cookie        - 00CE
+Floral Powder      - 00D1 
+Floral Extract     - 00D2
+Club Clover        - 00D4
+Angel Trumpet      - 00CB
+Glowing Tail       - 00DF
+Shadow Tail        - 00E0
+Bubble Straw       - 00E1
+Hell Mustard       - 00E6
+Twighlight Feather - 00E8
+Dawn Feather       - 00E9
+Fallen Feather     - 00EA
+Pure Feather       - 00EC
+Chance Feather     - 00F0
+Icy Feather        - 00EE
+Time Feather       - 00ED
+Lions Mane         - 00D8
+Dragon Scale       - 00D9
+Odd Chocolate      - 00DB
+Fish Inscense      - 00DD
+Big Paper Fan      - 00E7
+Poison Whitecap    - 00E3
+EZI Cracker        - 017F
+EZI Photo          - 0184
+
+Weapons
+Hunting Knife      - 0001
+Saber              - 0002
+Long Sword         - 0003
+Poison Blood       - 0004
+Waloon Sword       - 0005
+Branch Sword       - 0006
+Crescent Sword     - 0007
+Back Sword         - 0008
+Dragoon Blade      - 0009
+.... more weak ones here...
+Jokulsnaut         - 0010
+Velmugdd's Lust    - 0013
+Seven Branched     - 0015
+Cute Umbrella      - 0016
+Torn Umbrella      - 0020
+Azure Umbrella     - 0021
+Hatchet Musk (Gun) - 0029
+Nagul Fang (Gun)   - 0032
+Misteleinn (Baton) - 0040
+Voiceless Scptr(Bt)- 0041
+FreudHersch (Baton)- 0042
+Titinia's Bow      - 004E
+Alfheim (Rings)    - 0059
+Nodus (Rings)      - 0058
+Soul Cremator(LS)  - 0062
+Skofnung (LongSwrd)- 0068
+Bezwell (LongSword)- 0069
+Tyr's R Arm (h2h)  - 0076
+Iron Gloves (h2h)  - 007A
+Lords Reign (h2h)  - 007B
+Seraphic Touch(sbr)- 0081
+Retaliator (sbr)   - 0082
 
 
 Slots * yy is the item, and xx is the amount 
 (This number goes up to however many items you have in your inv) Pattern is 9,D,1,5. 
 If you have 25 items, then the weapons will start at slot 26. if you have 5 weapons, then the armor will start at 31 and so on.
 
-0082B489 yyxx (Slot 1)
-0082B48D yyxx (Slot 2)
-0082B491 yyxx (Slot 3)
-0082B495 yyxx (Slot 4)
-0082B499 yyxx (Slot 5)
-0082B49D yyxx (Slot 6)
-0082B4A1 yyxx (Slot 7)
-0082B4A5 yyxx (Slot 8)
-0082B4A9 yyxx (Slot 9)
-0082B4AD yyxx (Slot 10)
-0082B4B1 yyxx (Slot 11)
-0082B4B5 yyxx (Slot 12)
-0082B4B9 yyxx (Slot 13)
-0082B4BD yyxx (Slot 14)
-0082B4C1 yyxx (Slot 15)
-0082B4C5 yyxx (Slot 16)
-0082B4C9 yyxx (Slot 17)
-0082B4CD yyxx (Slot 18)
-0082B4D1 yyxx (Slot 19)
-0082B4D5 yyxx (Slot 20)
-0082B4D9 yyxx (Slot 21)
-0082B4DD yyxx (Slot 22)
-0082B4E1 yyxx (Slot 23)
-0082B4E5 yyxx (Slot 24)
-0082B4E9 yyxx (Slot 25) My items stop after 25, so the next slots will be Weapons. Once your items are out, Weapon Slots start 
-0082B5F1 yyxx (Slot 26) .
-0082B4F5 yyxx (Slot 27)    
-0082B4F9 yyxx (Slot 28)
-0082B4FD yyxx (Slot 29)
-0082B501 yyxx (Slot 30)
-0082B505 yyxx (Slot 31)
-0082B509 yyxx (Slot 32)
-0082B50D yyxx (Slot 33)
-0082B511 yyxx (Slot 34)
-0082B515 yyxx (Slot 35)
-0082B519 yyxx (Slot 36)
-0082B51D yyxx (Slot 37)
+0082B488 yyyyxx (Slot 1)
+0082B48C yyyyxx (Slot 2)
+0082B490 yyyyxx (Slot 3)
+0082B494 yyyyxx (Slot 4)
+0082B498 yyyyxx (Slot 5)
+0082B49C yyyyxx (Slot 6)
+0082B4A0 yyyyxx (Slot 7)
+0082B4A4 yyyyxx (Slot 8)
+0082B4A8 yyyyxx (Slot 9)
+0082B4AC yyyyxx (Slot 10)
+0082B4B0 yyyyxx (Slot 11)
+0082B4B4 yyyyxx (Slot 12)
+0082B4B8 yyyyxx (Slot 13)
+0082B4BC yyyyxx (Slot 14)
+0082B4C0 yyyyxx (Slot 15)
+0082B4C4 yyyyxx (Slot 16)
+0082B4C8 yyyyxx (Slot 17)
+0082B4CC yyyyxx (Slot 18)
+0082B4D0 yyyyxx (Slot 19)
+0082B4D4 yyyyxx (Slot 20)
+0082B4D8 yyyyxx (Slot 21)
+0082B4DC yyyyxx (Slot 22)
+0082B4E0 yyyyxx (Slot 23)
+0082B4E4 yyyyxx (Slot 24)
+0082B4E8 yyyyxx (Slot 25) My items stop after 25, so the next slots will be Weapons. Once your items are out, Weapon Slots start 
+0082B4EC yyyyxx
+0082B5F0 yyyyxx (Slot 26) .
+0082B4F4 yyyyxx (Slot 27)    
+0082B4F8 yyyyxx (Slot 28)
+0082B4FC yyyyxx (Slot 29)
+0082B500 yyyyxx (Slot 30)
+0082B504 yyyyxx (Slot 31)
+0082B508 yyyyxx (Slot 32)
+0082B50C yyyyxx (Slot 33)
+0082B510 yyyyxx (Slot 34)
+0082B514 yyyyxx (Slot 35)
+0082B518 yyyyxx (Slot 36)
+0082B51C yyyyxx (Slot 37)
 .......1
 .......5
 .......9
 .......D continue this as far as you like.
+0082B5F4 01yyxx (My next open slot)
 
 Items are followed by Armor, then Accessories, then key items.I have 30 weapons alone, so thist list would take forever.
 

@@ -193,7 +193,8 @@ Poison Whitecap    - 00E3
 EZI Cracker        - 017F
 EZI Photo          - 0184
 
-Weapons
+Weapons 
+(Skipped a Bunch of weak weapons, got most of the strong ones, you can find them easily by lowering the #)
 Hunting Knife      - 0001
 Saber              - 0002
 Long Sword         - 0003
@@ -226,6 +227,52 @@ Iron Gloves (h2h)  - 007A
 Lords Reign (h2h)  - 007B
 Seraphic Touch(sbr)- 0081
 Retaliator (sbr)   - 0082
+
+Accessories - 
+Amethyst Bracelet  - 0101
+Ruby Bracelet      - 0102
+Topaz Bracelet     - 0103
+ Diamon Bracelet   - 0104
+Feathered Hat      - 0106
+Bubbly Hat         - 0107
+Recovery Gloves    - 0108
+Lions Chime        - 010A
+Demonic Mask       - 010B
+Pocket Watch       - 010C
+Alice's Watch      - 010D
+Werewolf Chocker   - 010E
+Seven Stars        - 010F
+Lace Veil          - 0110
+Heart Pendant      - 0111
+Tyrants Crown      - 0112
+Spell Book         - 0113
+Copper Necklace    - 0114
+Silver Necklace    - 0115
+Gold Necklace      - 0116
+Magatama           - 0117
+Shard of Sampo     - 0118
+Brisingamen        - 0119
+Sunlight Guards    - 011A
+Obsidian Mirror    - 011B
+Shadow Helm        - 011C
+Athena's Tear      - 011D
+Stone Sword Hilt   - 011E
+Spirit Arrowhead   - 011F
+Hippolyte's Belt   - 0120
+Eye of Horus       - 0121
+Sky Blue Brooch    - 01FC
+Dark Brooch        - 01FB
+Brillian Brooch    - 01FA
+Crimson Brooch     - 01FE
+Emerald Bracelet   - 01FF
+Solomon's Ring     - 0122
+Lead Slug          - 0145
+Piercing Shell     - 0146
+...
+Best Lot           - 0148
+Small EZI          - 018F
+Elite EZI          - 018E
+Laughing EZI       - 018D
 
 
 Slots * yy is the item, and xx is the amount 

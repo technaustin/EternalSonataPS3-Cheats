@@ -331,24 +331,32 @@ Items are followed by Armor, then Accessories, then key items.I have 30 weapons 
 
 XP & Quick Level (I will add more soonTM)------------------------------------------------------------------------------------------------------------------
 
-0 008299B4  (Polka XP)
-0 00829BF4  (Polka Quick Level)
-0 00829A14  (Fredric XP)
-0 00829C54  (Frederic QL)
-0 008299E4  (Beat XP)
-0 00829C24  (Beat QL)
-0 00829984  (Allegretto XP)
-0 00829BC4  (Allegretto QL)
-0 00829A44  (Viola XP)
-0 00829C84  (Viola QL)
-0 00829CB4  (Salsa XP)
-0 00829A74  (Salsa QL)
-0 00829CE4  (Jazz XP)
-0 00829AA4  (Jazz QL)
-0 00829AD4  (Falsetto XP)
-0 00829D14  (Falsetto QL)
-0 00829B04  (Claves XP)
-0 00829D44  (Claves QL)
+0 008299B4 xxxxxxxx (Polka XP)
+0 00829BF4 xxxxxxxx (Polka Quick Level)
+0 00829A14 xxxxxxxx (Fredric XP)
+0 00829C54 xxxxxxxx (Frederic QL)
+0 008299E4 xxxxxxxx (Beat XP)
+0 00829C24 xxxxxxxx (Beat QL)
+0 00829984 xxxxxxxx (Allegretto XP)
+0 00829BC4 xxxxxxxx (Allegretto QL)
+0 00829A44 xxxxxxxx (Viola XP)
+0 00829C84 xxxxxxxx (Viola QL)
+0 00829CB4 xxxxxxxx (Salsa XP)
+0 00829A74 xxxxxxxx (Salsa QL)
+0 00829CE4 xxxxxxxx (Jazz XP)
+0 00829AA4 xxxxxxxx (Jazz QL)
+0 00829AD4 xxxxxxxx (Falsetto XP)
+0 00829D14 xxxxxxxx (Falsetto QL)
+0 00829B04 xxxxxxxx (Claves XP)
+0 00829D44 xxxxxxxx (Claves QL)
+0 00829B64 xxxxxxxx (Crescendo XP)
+0 00829DA4 xxxxxxxx (Crescendo QL)
+
+0 00829B64 00022A15
+0 00829DA4 00022A15
+00028A77
+
+
 
 Money 
 0 00828EB8 xxxxxxxx
@@ -360,42 +368,42 @@ STATS---------------------------------------------------------------------------
 (STATS WARNING - once you change stats, it won't take effect until you change equip, but it will be permanent)
 For max stats do FFFF, unless you want an exact number, then convert your number to HEX.
 
-Viola Base Stats HP, ATT, MAG, DEF, SPD 
+Viola Base Stats 
 0 00829C92 xxxx (HP) 
 0 00829C94 xxxx (ATT) 
 0 00829C96 xxxx (MAG) 
 0 00829C98 xxxx (DEF) 
 0 00829C9A xxxx (SPD)
 
-Allegretto Base Stats HP, ATT, MAG, DEF, SPD  
+Allegretto Base Stats  
 0 00829BD2 xxxx (HP) 
 0 00829BD4 xxxx (ATT)
 0 00829BD6 xxxx (MAG)
 0 00829BD8 xxxx (DEF)
 0 00829BDA xxxx (SPD)
 
-Beat Base Stats HP, ATT, MAG, DEF, SPD 
+Beat Base Stats 
 0 00829C32 xxxx (HP)
 0 00829C34 xxxx (ATT) 
 0 00829C36 xxxx (MAG)
 0 00829C38 xxxx (DEF)
 0 00829C3A xxxx (SPD)
 
-Frederic Base Stats HP, ATT, MAG, DEF, SPD 
+Frederic Base Stats 
 0 00829C62 xxxx (HP)  
 0 00829C64 xxxx (ATT)
 0 00829C66 xxxx (MAG)
 0 00829C68 xxxx (DEF)
 0 00829C6A xxxx (SPD)
 
-Polka Base Stats HP, ATT, MAG, DEF, SPD 
+Polka Base Stats
 0 00829C02 xxxx (HP)
 0 00829C04 xxxx (ATT) 
 0 00829C06 xxxx (MAG)
 0 00829C08 xxxx (DEF)
 0 00829C0A xxxx (SPD)
 
-Salsa Base Stats HP, ATT, MAG, DEF, SPD  
+Salsa Base Stats 
 0 00829CC2 xxxx (HP) 
 0 00829CC4 xxxx (ATT)
 0 00829CC6 xxxx (MAG) 
@@ -409,18 +417,32 @@ Falsetto Base Stats
 0 00829D28 xxxx (DEF)
 0 00829D2A xxxx (SPD)
 
-Claves Base Stats 0
+Claves Base Stats 
 0 00829D52 xxxx (HP)
 0 00829D54 xxxx (ATT)
 0 00829D56 xxxx (MAG) 
 0 00829D58 xxxx (DEF) 
 0 00829D5A xxxx (SPD)
 
-Jazz Base Stats 0 
+Jazz Base Stats  
 0 00829CF2 xxxx (HP) 
 0 00829CF4 xxxx (ATT)
 0 00829CF6 xxxx (MAG)
 0 00829CF8 xxxx (DEF)
 0 00829CFA xxxx (SPD)
+
+Crescendo Base Stats
+0 00829DB2 xxxx (HP) 
+0 00829DB4 xxxx (ATT)
+0 00829DB6 xxxx (MAG)
+0 00829DB8 xxxx (DEF)
+0 00829DBA xxxx (SPD)
+
+Serenade Base Stats
+0 00829DE2 xxxx (HP)
+0 00829DE4 xxxx (ATT)
+0 00829DE6 xxxx (MAG)
+0 00829DE8 xxxx (DEF)
+0 00829DEA xxxx (SPD)
 
 (WARNING once you change stats, it won't take effect until you change equip, but it will be permanent)

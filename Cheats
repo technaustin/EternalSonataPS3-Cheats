@@ -285,6 +285,16 @@ For example if I would like 9 ultimate weapons for Frederic, the Voiceless Scept
 The item number is yyyy in this case 0041, the amount is 09 which makes 004109. The reason its at 0082B5F4, is because that is the next
 blank slot. 
 
+2nd Example: 
+
+I want 99 Godess Bouquet's. I an open slot, (0082B630,31,32) There are no items there 000000. So I'll put my own
+
+0 0082B630 00CC63 = 99 Godess Bouquets.
+
+Shortly after you enter this item, the game will sort it to the correct inventory spot. You can view it with debugger, which you will
+need anyways to find open slots, otherwise you can just overwrite items that you don't want by searching with netcheat.
+
+
 Items
 Peach Cookie       - 00CD
 Star Cookie        - 00CE

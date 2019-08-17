@@ -393,6 +393,43 @@ Small EZI          - 018F
 Elite EZI          - 018E
 Laughing EZI       - 018D
 
+Key Items
+Stick              - 0130
+Blue Lento Flame   - 0153
+Red Lento Flame    - 0151
+Green Lento Flame  - 0155
+Hero's Crest       - 012D
+Warp Room Key      - 0156
+Fort Fermata Key   - 012B
+Pirate's Key       - 012A
+Rat Tail           - 012F
+Aria Temple Key    - 012E
+Dentures           - 0131
+Long Johns         - 0132
+Green Paint        - 0133
+Goats Milk         - 0134
+Piggy Bank         - 0135
+Fruit              - 0136
+Winder             - 0137
+Empty Vase         - 0138
+Water Jug          - 0139
+Cold Medicine      - 013A
+Pot                - 013B
+Got Stew           - 013C
+Coupon             - 013D
+Honey              - 013E
+Odd Candy          - 013F
+Glass Ball         - 0140
+Orb                - 0141
+Pirates Paper 1    - 0142
+..... More to come. (Keep searching pas 142...0143 etc.
+
+
+
+
+
+
+
 
 Slots * yy is the item, and xx is the amount 
 (This number goes up to however many items you have in your inv) Pattern is 9,D,1,5. 

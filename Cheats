@@ -195,6 +195,8 @@ This is how to quick level up. Follow the guide above if you want to level norma
 0 00829DA4 xxxxxxxx (Crescendo QL)
 0 00829B94 xxxxxxxx (Serenade XP)
 0 00829DD4 xxxxxxxx (Serenade QL)
+0 00829B34 xxxxxxxx (March XP)
+0 00829D74 xxxxxxxx (March QL)
 
 (STATS WARNING - once you change stats, it won't take effect until you change equip, but it will be permanent)
 For max stats do FFFF, unless you want an exact number, then convert your number to HEX.
@@ -276,6 +278,13 @@ Serenade Base Stats
 0 00829DE8 xxxx (DEF)
 0 00829DEA xxxx (SPD)
 
+March Base Stats
+0 00829D82 xxxx (HP)
+0 00829D84 xxxx (ATT)
+0 00829D86 xxxx (MAG)
+0 00829D88 xxxx (DEF)
+0 00829D8A xxxx (SPD)
+
 (WARNING once you change stats, it won't take effect until you change equip, but it will be permanent)
 
 
@@ -328,6 +337,11 @@ Big Paper Fan      - 00E7
 Poison Whitecap    - 00E3
 EZI Cracker        - 017F
 EZI Photo          - 0184
+EZI Egg
+EZI Photo
+EZI String Phone
+Weekly EZI Magazine
+
 
 Weapons 
 (Skipped a Bunch of weak weapons, got most of the strong ones, you can find them easily by lowering the #)

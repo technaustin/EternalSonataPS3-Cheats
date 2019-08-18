@@ -1,5 +1,8 @@
 Codes for PS3 - BLES00444 (possibly other regions too)
 
+WARNING: I'm not responsible if you mess up your save file! Make backups via FTP or USB. I once messed up my items, so whenever I went
+to sell items the game would crash. I was able  to fix it by 0 ing out all of the items. One of them was wrong.
+
 Summary --------------------------------------------------------------------------------------------------------------------------------
 All cheats tested by me, but I'm sure I made a few mistakes.
 
@@ -293,6 +296,10 @@ I want 99 Godess Bouquet's. I an open slot, (0082B630,31,32) There are no items 
 
 Shortly after you enter this item, the game will sort it to the correct inventory spot. You can view it with debugger, which you will
 need anyways to find open slots, otherwise you can just overwrite items that you don't want by searching with netcheat.
+
+*UPDATE, you can actually just use the last item slot to give yourself an item.
+
+0 0082BF30 00CC60
 
 
 Items

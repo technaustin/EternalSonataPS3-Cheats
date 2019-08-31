@@ -256,6 +256,10 @@ March Base Stats
 
 Item Hacks-------------------------------------------------------------------------------------------------------------------------------------
 HOW TO ADD ITEMS:
+
+*For item hacking I HIGHLY recommend to use Debugger instead of PS3 Netcheat, unless you are just swapping items, it can become a real
+pain to find the next open slot without debugger. 
+
 To add items to your inventory, you can either just search for an item, and swap the amount and item #. The alternative is to add
 a brand new item, but it requires a little more searching. To an an item, you need to find the last item in your inv, then put yyyyxx
 This will insert the new item for you in its proper area. The last items in your list will be after key items.
@@ -265,7 +269,7 @@ blank slot.
 
 2nd Example: 
 
-I want 99 Godess Bouquet's. I an open slot, (0082B630,31,32) There are no items there 000000. So I'll put my own
+I want 99 Godess Bouquet's. Find the next open slot, (0082B630,31,32) There are no items there 000000. So I'll put my own
 
 0 0082B630 00CC63 = 99 Godess Bouquets.
 
@@ -273,6 +277,7 @@ Shortly after you enter this item, the game will sort it to the correct inventor
 need anyways to find open slots, otherwise you can just overwrite items that you don't want by searching with netcheat.
 
 *UPDATE, you can actually just use the last item slot to give yourself an item.
+*WARNING if you don't use the next available slot, or repace a current item, you will get duplicates. It is best to use the next slot.
 
 0 0082BF30 00CC60
 

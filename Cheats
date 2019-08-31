@@ -36,85 +36,49 @@ to 17. You have to use the numbers before it, then level up once. The numbers yo
 over the max of 16 your at 17. TLDR; use the number before the level you want to go to, IE if you want 35, use 34 XP. Each time you apply
 the cheat, you can kill a mob and gain a level. 
 
-Lvl  1 XP 000000C7 (199XP) (LEVEL HAPPENS AT 200XP)
-
+Lvl  1 XP 000000C7 (199XP) (LEVEL 2 HAPPENS AT 200XP)
 Lvl  2 XP 00000199 (409 XP) 
-
 Lvl  3 XP 000002A2 (674 XP)
-
 Lvl  4 XP 00000418 (1048 XP)
-
-Lvl  5 XP 0000063A (1594 XP) (Level happens at 1595XP etc....)
-
+Lvl  5 XP 0000063A (1594 XP) (Level 6 happens at 1595XP etc....)
 Lvl  6 XP 00000950 (2384 XP)
-
 Lvl  7 XP 00000DAB (3499 XP)
-
 Lvl  8 XP 000013A5 (5029 XP)
-
 Lvl  9 XP 00001BA1 (7073 XP)
-
 Lvl 10 XP 0000260B (9739 XP)
-
 Lvl 11 XP 00003358 (13144 XP)
-
 Lvl 12 XP 00004406 (17414 XP)
-
 Lvl 13 XP 0000589C (22684 XP)
-
 Lvl 14 XP 000071AA (29098 XP) 
-
 Lvl 15 XP 00008FC9 (36809 XP)
-
 Lvl 16 XP 0000B39B (45979 XP)
-
 Lvl 17 XP 0000DDCB (56779 XP)
- 
 Lvl 18 XP 00010F0D (69389 XP)
-
 Lvl 19 XP 0001481E (83998 XP)  
-
 Lvl 20 XP 000189C4 (100804 XP)
-
 Lvl 21 XP 0001D4CE (120014 XP)
-
 Lvl 22 XP 00022A14 (141844 XP)
-
 Lvl 23 XP 00028A77 (166519 XP)
- 
 Lvl 24 XP 0002F6E1 (194273 XP)
-
 Lvl 25 XP 00037045 (225349 XP) 
-
 Lvl 26 XP 0003F79F (260K XP)
-
 Lvl 27 XP 00048DF4 (298485 XP)
-
 Lvl 28 XP 00053452 (341075 XP)
-
 Lvl 29 XP 0005EBD0 (388048 XP)
-
 Lvl 30 XP 0006B58E (439694 XP)
-
 Lvl 31 XP 000792B5 (496309 XP)
-
 Lvl 32 XP 00088477 (558199 XP)
-
 Lvl 33 XP 00098C0F (625679 XP)
-
 Lvl 34 XP 000AAAC1 (699074 XP)
-
 Lvl 35 XP 000BE1DA (778714 XP)
-
 Lvl 36 XP 000D32B0 (864944 XP)
-
 Lvl 37 XP 000E9EA2 (958114 XP)
-
 Lvl 38 XP 00102718 (1058584 XP)
-
 Lvl 39 XP 0011CD83 (1166723 XP)
-
 Lvl 40 XP 0013935D (1282909 XP)
+Lvl 41 XP 00157A29 (1,407,529 XP)
+Lvl 42 XP 00178373 (1,540,979 XP) (didn't test any further from here, just added up the numbers)
+Lvl 43 XP 0100E824 (1,683,664‬ XP)
 
 And so on... If you don't care about leveling properly this doesn't matter. If you use a number too high, you'll level slow. If you use a
 number too low, you'll level quick etc. I like to pick the level I want to go to, then enter that after each battle. Battle that many 
@@ -201,12 +165,7 @@ This is how to quick level up. Follow the guide above if you want to level norma
 (STATS WARNING - once you change stats, it won't take effect until you change equip, but it will be permanent)
 For max stats do FFFF, unless you want an exact number, then convert your number to HEX.
 
-Viola Base Stats 
-0 00829C92 xxxx (HP) 
-0 00829C94 xxxx (ATT) 
-0 00829C96 xxxx (MAG) 
-0 00829C98 xxxx (DEF) 
-0 00829C9A xxxx (SPD)
+
 
 Allegretto Base Stats  
 0 00829BD2 xxxx (HP) 
@@ -235,6 +194,13 @@ Polka Base Stats
 0 00829C06 xxxx (MAG)
 0 00829C08 xxxx (DEF)
 0 00829C0A xxxx (SPD)
+
+Viola Base Stats 
+0 00829C92 xxxx (HP) 
+0 00829C94 xxxx (ATT) 
+0 00829C96 xxxx (MAG) 
+0 00829C98 xxxx (DEF) 
+0 00829C9A xxxx (SPD)
 
 Salsa Base Stats 
 0 00829CC2 xxxx (HP) 

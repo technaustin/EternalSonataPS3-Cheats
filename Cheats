@@ -14,7 +14,8 @@ Hopefully someone smarter than me can figure out how to give yourself those.
 You can enter these directly into NetCheat PS3, or download the NCM file i've  uploaded.
 
 How to-------------------------------------------------------------------------------------------------------------------------------------
-This requires NetCheat PS3. I got netcheat working with an old version of CCAPI 2.6, on my computer, and 2.8 on the PS3.
+This requires NetCheat PS3 & PS3 Target manager / Debugger (Though you can get by with one or the other, it's easier to use both. 
+I got netcheat working with an old version of CCAPI 2.6, on my computer, and 2.8 on the PS3 4.84.
 Once you have that, you need to search for PS3 Target Manager & debugger. Debugger is amazing, and should be used to
 test / modify values. Install them. Follow a guide to set it up.
 

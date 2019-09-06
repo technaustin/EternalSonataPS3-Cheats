@@ -89,8 +89,8 @@ Lvl 47 XP 0023EFE1 (2,355,169 XP)
 Lvl 48 XP 0026EA93 (2,550,419 XP)
 Lvl 49 XP 002A1393 (2,757,523 XP)
 Lvl 50 XP 002D6CB5 (2,976,949 XP)
-Lvl 51 XP 0030F7D6 (3,209,175 XP)
-Lvl 52 XP 0034B6DD (3,454,685 XP)
+Lvl 51 XP 0030F7D6 (3,209,174 XP)
+Lvl 52 XP 0034B6DC (3,454,684 XP)
 Lvl 53 XP 0038ABB6 (3,713,974 XP)
 
 And so on... If you don't care about leveling properly this doesn't matter. If you use a number too high, you'll level slow. If you use a
@@ -216,7 +216,8 @@ Viola Base Stats
 0 00829C9A xxxx (SPD)
 
 Salsa Base Stats 
-0 00829CC2 xxxx (HP) 
+0 0082AC16 xxxx (HP MIN)
+0 00829CC2 xxxx (HP MAX) 
 0 00829CC4 xxxx (ATT)
 0 00829CC6 xxxx (MAG) 
 0 00829CC8 xxxx (DEF)
@@ -251,6 +252,7 @@ Crescendo Base Stats
 0 00829DBA xxxx (SPD)
 
 Serenade Base Stats
+0 0080D54C FFFFFFFF (MIN HP) (CONSTANT WRITE for Infinite HP)
 0 00829DE2 xxxx (HP)
 0 00829DE4 xxxx (ATT)
 0 00829DE6 xxxx (MAG)

@@ -178,6 +178,13 @@ This is how to quick level up. Follow the guide above if you want to level norma
 (STATS WARNING - once you change stats, it won't take effect until you change equip, but it will be permanent)
 For max stats do FFFF, unless you want an exact number, then convert your number to HEX.
 
+Infinite HP, and Minimum HP in Battle. (If you use netcheat, just set this number to constant write, for infinite, otherwise you can 
+heal yourself etc, or decrease / increase your min HP)
+
+0 007E54E6 xxxx (1st Player)
+0 007F951A xxxx (2nd Player)
+0 0080D54C xxxx (3rd player)
+
 
 
 Allegretto Base Stats  
@@ -252,8 +259,7 @@ Crescendo Base Stats
 0 00829DBA xxxx (SPD)
 
 Serenade Base Stats
-0 0080D54C FFFFFFFF (MIN HP) (CONSTANT WRITE for Infinite HP)
-0 00829DE2 xxxx (HP)
+0 00829DE2 xxxx (MAX HP)
 0 00829DE4 xxxx (ATT)
 0 00829DE6 xxxx (MAG)
 0 00829DE8 xxxx (DEF)

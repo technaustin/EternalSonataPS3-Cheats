@@ -96,6 +96,52 @@ Lvl 54 XP 003CD85C (3,987,548 XP)
 Lvl 55 XP 00413ECF (4,275,919 XP)
 Lvl 56 XP 0045E119 (4,579,609 XP)
 Lvl 57 XP 004AC14D (4,899,149 XP)
+Lvl 58 XP 004FE187 (5,235,079 XP)
+Lvl 59 XP 005543EC (5,587,948 XP)
+Lvl 60 XP 005AEAAA (5,958,314 XP)
+Lvl 61 XP 0060D7F8 (6,346,744 XP)
+Lvl 62 XP 00670E16 (6,753,814 XP)
+Lvl 63 XP 006D8F4D (7,180,109 XP)
+Lvl 64 XP 00745DEF (7,626,223 XP)
+Lvl 65 XP 007B7C57 (8,092,759 XP)
+Lvl 66 XP 0082ECE9 (8,580,329 XP)
+Lvl 67 XP 008AB212 (9,089,554 XP)
+Lvl 68 XP 0092CE48 (9,621,064 XP)
+Lvl 69 XP 009B440A (10,175,498 XP)
+Lvl 70 XP 00A415E0 (10,753,504 XP)
+Lvl 71 XP 00AD465B (11,355,739 XP)
+Lvl 72 XP 00B6D815 (11,982,869 XP)
+Lvl 73 XP 00C0CDB1 (12,635,569 XP)
+Lvl 74 XP 00CB29DB (13314523 XP)
+Lvl 75 XP 00D5EF48 (14020424 XP)
+Lvl 76 XP 00E120B6 (14753974 XP)
+Lvl 77 XP 00ECC0EC
+Lvl 78 XP 00F8D2BA
+Lvl 79 XP 010558F9
+Lvl 80 XP 0112568B
+Lvl 81 XP 011FCE5B
+Lvl 82 XP 012DC35D
+Lvl 83 XP 013C388E
+Lvl 84 XP 014B341E
+Lvl 85 XP 015AAF9E
+Lvl 86 XP 016AB7A4
+Lvl 87 XP 017B4C27
+Lvl 88 XP 018C7051
+Lvl 89 XP 019E2755
+Lvl 90 XP 01B0746F
+Lvl 91 XP 01C35AE4
+Lvl 92 XP 01D6DE02
+Lvl 93 XP 01EB0120
+Lvl 94 XP 01FFC79E
+Lvl 95 XP 021534E5
+Lvl 96 XP 022B4C67
+Lvl 97 XP 024211BF
+Lvl 98 XP 02598811
+Lvl 99 XP 0271B34A
+Lvl 100 XP 028A96E0
+Lvl 101 XP 02A43672.
+
+
 
 And so on... If you don't care about leveling properly this doesn't matter. If you use a number too high, you'll level slow. If you use a
 number too low, you'll level quick etc. I like to pick the level I want to go to, then enter that after each battle. Battle that many 
@@ -296,7 +342,7 @@ blank slot.
 
 I want 99 Godess Bouquet's. Find the next open slot, (0082B630,31,32) There are no items there 000000. So I'll put my own
 
-0 0082B630 00CC63 = 99 Godess Bouquets.
+0 0082B630 00CC63 = 99 Goddess Bouquets.
 
 Shortly after you enter this item, the game will sort it to the correct inventory spot. You can view it with debugger, which you will
 need anyways to find open slots, otherwise you can just overwrite items that you don't want by searching with netcheat.
@@ -306,11 +352,12 @@ need anyways to find open slots, otherwise you can just overwrite items that you
 
 0 0082BF30 00CC60
 
+You should an an amount following the 4 digit code.
 
 Items
-Peach Cookie       - 00CD
+Peach Cookie       - 00CD(xx) <--- last number must be added for amount (63 if you want 99 would look like this 00CD63)
 Star Cookie        - 00CE
-Floral Powder      - 00D1 
+Floral Powder      - 00D1
 Floral Extract     - 00D2
 Club Clover        - 00D4
 Angel Trumpet      - 00CB
@@ -331,6 +378,7 @@ Odd Chocolate      - 00DB
 Fish Inscense      - 00DD
 Big Paper Fan      - 00E7
 Poison Whitecap    - 00E3
+Star Clock         - 00F6
 EZI Cracker        - 017F
 EZI Photo          - 0184
 EZI Egg
@@ -374,6 +422,12 @@ Lords Reign (h2h)  - 007B
 Seraphic Touch(sbr)- 0081
 Retaliator (sbr)   - 0082
 
+Armor -
+Lech Armor         - 00B2
+Styx Veil          - 00A1
+Mist Cape          - 0091
+Daybreak Cloak     - 00A0
+
 Accessories - 
 Amethyst Bracelet  - 0101
 Ruby Bracelet      - 0102
@@ -414,6 +468,7 @@ Emerald Bracelet   - 01FF
 Solomon's Ring     - 0122
 Lead Slug          - 0145
 Piercing Shell     - 0146
+Pocket Watch       - 0183
 ...
 Best Lot           - 0148
 Small EZI          - 018F

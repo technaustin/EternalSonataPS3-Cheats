@@ -92,6 +92,10 @@ Lvl 50 XP 002D6CB5 (2,976,949 XP)
 Lvl 51 XP 0030F7D6 (3,209,174 XP)
 Lvl 52 XP 0034B6DC (3,454,684 XP)
 Lvl 53 XP 0038ABB6 (3,713,974 XP)
+Lvl 54 XP 003CD85C (3,987,548 XP)
+Lvl 55 XP 00413ECF (4,275,919 XP)
+Lvl 56 XP 0045E119 (4,579,609 XP)
+Lvl 57 XP 004AC14D (4,899,149 XP)
 
 And so on... If you don't care about leveling properly this doesn't matter. If you use a number too high, you'll level slow. If you use a
 number too low, you'll level quick etc. I like to pick the level I want to go to, then enter that after each battle. Battle that many 
@@ -100,9 +104,9 @@ normal.
 
 HOW TO GO TO HIGHER LEVELS
 
-If you use the level 40 Quick Level number, you will get the max XP you would have at level  40, before hitting 41.  Just enter that code, 
-level up and repeat until you get to level 41. At that point, you will level up like normal. If you wanted wanted to level  up again, to
-42, you would have to find out the max XP & next level, as I don't have it listed. Here's how.
+If you use the level 40 Quick Level number, you will get the max XP you would have at level  40, 1XP before hitting 41.  Just enter 
+that code, level up and repeat until you get to level 41. At that point, you will level up like normal. If you wanted wanted to level 
+up again, to 42, you would have to find out the max XP & next level, as I don't have it listed. Here's how.
 
 Once you level up to 41, look at your XP, and Next level. 
 
@@ -114,19 +118,19 @@ If you add up those numbers, then substract by one, you will get the number righ
 
 1282910 + 124620 = 1,407,530
 
-Now if you use this number you'd be at the right XP for 41, but because we want to level first and gain those nice stat points, we 
+Now if you use this number you'd be at the right XP for 42, but because we want to level first and gain those nice stat points, we 
 subtract by one, and then set it.
 
 1,407,530 - 1 = 1,407,529
 
 Now let's convert this number to Hex = 00157A29
 
-Now use NetCheat to set the QuickLevel and XP to 1,407,530 (in this example I'll use Polka)
+Now use NetCheat to set the QuickLevel and XP to 1,407,529 (in this example I'll use Polka)
 
 So the cheat to get to level 41 XP for Polka would look like this
 
-0 008299B4 00157A2A
-0 00829BF4 00157A2A
+0 008299B4 00157A29
+0 00829BF4 00157A29
 
 This will set your next level XP to 1, and make it so once you do level, you'll be in the correct spot to level to 42. The actual XP
 isn't really significant, but to have the correct amount listed, just keep it the same as the QL. If you are doing things right, the QL
